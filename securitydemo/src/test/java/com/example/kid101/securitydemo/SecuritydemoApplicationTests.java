@@ -1,4 +1,4 @@
-package com.example.tushar.securitydemo;
+package com.example.kid101.securitydemo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
