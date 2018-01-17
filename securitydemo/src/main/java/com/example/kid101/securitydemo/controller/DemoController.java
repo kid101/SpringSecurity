@@ -1,4 +1,4 @@
-package com.example.tushar.securitydemo.controller;
+package com.example.kid101.securitydemo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.tushar.securitydemo.model.Role;
-import com.example.tushar.securitydemo.model.User;
-import com.example.tushar.securitydemo.repository.UserRepository;
+import com.example.kid101.securitydemo.model.Role;
+import com.example.kid101.securitydemo.model.User;
+import com.example.kid101.securitydemo.repository.UserRepository;
 import com.google.common.collect.Sets;
 
 @RequestMapping("/demo")

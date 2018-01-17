@@ -1,4 +1,4 @@
-package com.example.tushar.securitydemo.application;
+package com.example.kid101.securitydemo.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

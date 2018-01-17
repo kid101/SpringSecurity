@@ -1,10 +1,10 @@
-package com.example.tushar.securitydemo.repository;
+package com.example.kid101.securitydemo.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.tushar.securitydemo.model.User;;
+import com.example.kid101.securitydemo.model.User;;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
 

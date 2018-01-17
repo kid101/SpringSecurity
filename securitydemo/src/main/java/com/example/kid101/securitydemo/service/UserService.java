@@ -1,4 +1,4 @@
-package com.example.tushar.securitydemo.service;
+package com.example.kid101.securitydemo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -6,8 +6,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.example.tushar.securitydemo.model.UserAuthWrapper;
-import com.example.tushar.securitydemo.repository.UserRepository;
+import com.example.kid101.securitydemo.model.UserAuthWrapper;
+import com.example.kid101.securitydemo.repository.UserRepository;
 
 @Service
 public class UserService implements UserDetailsService {

@@ -1,4 +1,4 @@
-package com.example.tushar.securitydemo.model;
+package com.example.kid101.securitydemo.model;
 
 import java.util.Collection;
 import java.util.stream.Collectors;
