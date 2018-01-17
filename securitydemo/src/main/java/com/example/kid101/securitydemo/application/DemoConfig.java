@@ -16,9 +16,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @EnableWebSecurity
 @EnableGlobalMethodSecurity
 @Configuration
-@ComponentScan(basePackages = "com.example.tushar.securitydemo.*")
-@EntityScan("com.example.tushar.securitydemo.model")
-@EnableJpaRepositories(basePackages = "com.example.tushar.securitydemo.repository")
+@ComponentScan(basePackages = "com.example.kid101.securitydemo.*")
+@EntityScan("com.example.kid101.securitydemo.model")
+@EnableJpaRepositories(basePackages = "com.example.kid101.securitydemo.repository")
 public class DemoConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private UserDetailsService userDetailsService;
